@@ -9,6 +9,7 @@ import { TextGenerateEffectDemo } from '@/components/TextGenerateEffectDemo';
 import { VortexDemo } from '@/components/VortexDemo';
 import { BackgroundBoxesDemo } from '@/components/BackgroundBoxesDemo';
 import { TracingBeamDemo } from '@/components/TracingBeamDemo';
+import { TextRevealCardPreview } from '@/components/TextRevealCardPreview';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <SparklesPreview />
       <TextGenerateEffectDemo />
       <TracingBeamDemo />
+      <TextRevealCardPreview />
       <VortexDemo />
       <BackgroundBoxesDemo />
       <TabsDemo />
